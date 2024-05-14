@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 整体容器 -->
+    <item android:width="51px" android:height="171px">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- 主要图层，居中显示 -->
+    <item android:left="9px" android:right="36px" android:top="17px" android:bottom="24px">
+        <bitmap android:src="@drawable/scrollbar_thumb_normal" />
+    </item>
+</layer-list>
+
